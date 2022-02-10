@@ -57,8 +57,6 @@ for k = 1:length(b)
 end
 
 
-disp(b);
-
 %------------------------- solver ------------------------------
 
 
@@ -72,12 +70,8 @@ u = reshape(u,Nx,Ny);
 
 u = u';
 
-disp(size(u));
-
 
 [X,Y] = meshgrid(x,y);
-
-disp(size(X));
 
 surf(X, Y, u);
 shading interp
