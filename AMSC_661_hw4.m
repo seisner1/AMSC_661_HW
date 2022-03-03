@@ -28,9 +28,6 @@ end
 
 hval = pi./N;
 
-figure;
-plot(hval,errors);
-
 figure; hold on;
 plot(hval,errors,'.','Markersize',20);
 x = log(hval);
